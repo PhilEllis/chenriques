@@ -356,7 +356,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 70px;
   position: relative;
   z-index: 2;
 }
