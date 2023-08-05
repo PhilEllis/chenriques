@@ -42,7 +42,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 9999;
-    background: rgba(68, 101, 138, 0.8);
+    background: rgba(57, 148, 237, 0.5);
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -415,16 +415,22 @@ section {
   --------------------------------------------------------------*/
   .breadcrumbs {
     padding: 15px 0;
-    background-color: #ece6c7;
+    background-color: rgba(87, 127, 172, 0.7);
     min-height: 40px;
+    color: #ffffff;
   }
   
   .breadcrumbs h2 {
     font-size: 24px;
     font-weight: 300;
     font-family: "Atteron", sans-serif;
+    color: #ffffff;
   }
   
+  .breadcrumbs a {
+    color: #ffffff;
+  }
+
   .breadcrumbs ol {
     display: flex;
     flex-wrap: wrap;
@@ -432,16 +438,18 @@ section {
     padding: 0;
     margin: 0;
     font-size: 14px;
+    color: #ffffff;
   }
   
   .breadcrumbs ol li+li {
     padding-left: 10px;
+    color: #ffffff;
   }
   
   .breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
-    color: #6c757d;
+    color: #ffffff;
     content: "/";
   }
   
@@ -620,16 +628,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   position: relative;
-  margin: 60px 0 0 60px;
-}
-
-.about .about-img:before {
-  position: absolute;
-  inset: -60px 0 0 -60px;
-  z-index: -1;
-  content: "";
-  background: url("../img/about2blank.jpg") top left;
-  background-repeat: no-repeat;
+  margin: 10px 0 0 10px;
 }
 
 @media (max-width: 575px) {
@@ -712,19 +711,28 @@ section {
 .cta {
   background: url("../img/IMG_3093.jpg") center;
   background-size: cover;
+  height: 250px;
   padding: 60px 0;
   margin: 50px 0;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
 }
 
+.cta .home-quote {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(255, 255, 255, 1);
+  min-height: 150px;
+  height: 100px;
+}
+
 .cta h3 {
-  color: #fff;
+  color: rgba(32, 69, 112, 1);
   font-size: 28px;
   font-weight: 700;
+  padding-top: 20px;
 }
 
 .cta p {
-  color: #fff;
+  color: rgba(32, 69, 112, 1);
 }
 
 .cta .cta-btn {
@@ -864,103 +872,6 @@ section {
   position: relative;
 }
 
-.about2 .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
-}
-
-.about2 .play-btn::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.about2 .play-btn::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 5px solid rgba(66, 139, 202, 0.7);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-.about2 .play-btn:hover::after {
-  border-left: 15px solid #428bca;
-  transform: scale(20);
-}
-
-.about2 .play-btn:hover::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
-}
-
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -989,7 +900,7 @@ section {
   margin: 0;
   width: 72px;
   height: 72px;
-  background: rgba(87, 127, 172, 0.7);
+  background: rgba(57, 148, 237, 0.5);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -1041,6 +952,7 @@ section {
 #contact {
   padding-bottom: 150px;
 }
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1567,7 +1479,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
+  background-color: rgba(57, 148, 237, 1);
 }
 
 .portfolio-details .portfolio-info {
