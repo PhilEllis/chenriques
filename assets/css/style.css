@@ -14,7 +14,7 @@ body {
   }
   
   a {
-    color: #153E45;
+    color: rgba(32, 69, 112, 1);
     text-decoration: none;
   }
   
@@ -32,6 +32,12 @@ body {
     font-family: "Playfair Display", serif;
   }
   
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: rgba(32, 69, 112, 1);
+  }
   /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -597,9 +603,9 @@ section {
 
 .hero2 h2 {
   margin: 10px 0 10px 0;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
-  color: #000;
+  color: rgba(32, 69, 112, 1);
   font-family: "Atterton" sans-serif;
 }
 
