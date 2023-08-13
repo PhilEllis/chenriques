@@ -365,7 +365,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: rgba(233, 202, 138, 0.3);
+  color: rgba(87, 127, 172, 0.4);
   left: 0;
   right: 0;
   z-index: 1;
@@ -392,7 +392,7 @@ section {
   display: block;
   width: 200px;
   height: 1px;
-  background: #577fac;
+  background: rgba(233, 202, 138, 1);
   left: 0;
   right: 0;
   bottom: 0;
@@ -472,7 +472,7 @@ section {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/carinahenriquessplash.jpg") center;
+  background: url("../img/homeherosizetest.jpg") center;
   background-size: cover;
   padding: 0 0;
 }
@@ -709,9 +709,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: url("../img/IMG_3093.jpg") center;
+  background: url("../img/IMG_3093.jpg") fixed center center;
   background-size: cover;
-  height: 250px;
+  height: 300px;
   padding: 60px 0;
   margin: 50px 0;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -720,6 +720,7 @@ section {
 .cta .home-quote {
   background-color: rgba(255, 255, 255, 0.7);
   border: 2px solid rgba(255, 255, 255, 1);
+  margin-top: 20px;
   min-height: 150px;
   height: 100px;
 }
@@ -759,8 +760,9 @@ section {
 # Cta2
 --------------------------------------------------------------*/
 .cta2 {
-  background: url("../img/philellis6.jpg") center;
+  background: url("../img/philellis6.jpg") fixed center center;
   background-size: cover;
+  height: 300px;
   padding: 60px 0;
   margin: 50px 0;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -965,7 +967,7 @@ section {
   color: rgba(32, 69, 112, 1);
   border-radius: 50%;
   padding: 15px;
-  background: #eeeeee;
+  background: #f1f7fb;
 }
 
 .contact .info-box h3 {
@@ -989,21 +991,17 @@ section {
 }
 
 .social-links a i {
-  font-size: 24px;
+  font-size: 36px;
   display: inline-block;
-  color: #44658A;
+  color: rgba(57, 148, 237, 0.6);
   line-height: 1;
-  margin: 0 8px;
+  margin: 10px 20px;
   transition: 0.3s;
   padding: 14px;
-  border-radius: 50px;
-  border: 1px solid rgba(32, 69, 112, 1);
 }
 .social-links a i:hover {
-  color: #fff;
-  font-size: 30px;
-  border-color: #44658A;
-  background: #44658A;
+  color: #44658A;
+  font-size: 40px;
 }
  /*--------------------------------------------------------------
   # Footer
