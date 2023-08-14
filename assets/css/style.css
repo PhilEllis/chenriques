@@ -19,7 +19,7 @@ body {
   }
   
   a:hover {
-    color: #153E45;
+    color: rgba(33, 128, 222, 1);
     text-decoration: none;
   }
   
@@ -85,6 +85,7 @@ body {
   
   #header .logo h1 {
     font-size: 26px;
+    color: rgba(32, 69, 112, 1);
     margin: 0;
     padding: 6px 0;
     line-height: 1;
@@ -95,15 +96,17 @@ body {
   .font-carina {
     font-family: "Atterton", sans-serif;
     text-transform: uppercase;
+    color: rgba(32, 69, 112, 1);
   }
 
   .font-henriques {
     font-family: "Halimun", sans-serif;
+    color: rgba(32, 69, 112, 1);
   }
 
   #header .logo h1 a,
   #header .logo h1 a:hover {
-    color: #2c4964;
+    color: rgba(32, 69, 112, 1);
     text-decoration: none;
   }
   
@@ -147,7 +150,7 @@ body {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 14px;
-    color: #2c4964;
+    color: rgba(32, 69, 112, 1);;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -163,7 +166,7 @@ body {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #153E45;
+    color: rgba(33, 128, 222, 1);;
   }
   
   .navbar .dropdown ul {
@@ -488,11 +491,11 @@ section {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgba(32, 69, 112, 1);
 }
 
 #hero h2 {
-  color: #eee;
+  color: rgba(32, 69, 112, 1);
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
@@ -500,15 +503,15 @@ section {
 }
 
 #hero .btn-get-started {
-  font-size: 64px;
+  font-size: 40px;
   transition: 0.5s;
-  color: #fff;
+  color: rgba(32, 69, 112, 1);
   height: 60px;
 }
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #153E45;
+  color: rgba(33, 128, 222, 1);
 }
 
 @media (min-width: 1024px) {
@@ -933,7 +936,7 @@ section {
 }
 
 .services .details h3 {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(32, 69, 112, 1);
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
@@ -947,7 +950,7 @@ section {
 }
 
 .services .service-item:hover .details h3 {
-  color: rgb(32, 69, 112);
+  color: rgba(33, 128, 222, 1);
 }
 
 .services .service-item:hover .details .icon {
@@ -1008,7 +1011,7 @@ section {
 .social-links a i {
   font-size: 36px;
   display: inline-block;
-  color: rgba(57, 148, 237, 0.6);
+  color: rgba(33, 128, 222, 0.6);
   line-height: 1;
   margin: 10px 20px;
   transition: 0.3s;
