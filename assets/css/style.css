@@ -395,6 +395,11 @@ section {
   margin-right: 100px;
 }
 
+.healing-end .section-title p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .section-title h2:after {
   content: "";
   position: absolute;
