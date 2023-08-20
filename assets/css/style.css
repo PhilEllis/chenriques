@@ -365,7 +365,7 @@ section {
   text-transform: uppercase;
   font-family: "Atterton", sans-serif;
   margin-bottom: 20px;
-  padding-bottom: 0;
+  padding-bottom: 5px;
   color: rgba(32, 69, 112, 1);
   position: relative;
   z-index: 2;
@@ -393,6 +393,15 @@ section {
 .about2 .section-title p {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.about-healing .section-title {
+  margin-top: 40px;
+}
+
+.about-healing .section-title p {
+  margin-bottom: 30
+  px;
 }
 
 .healing-end .section-title p {
