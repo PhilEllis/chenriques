@@ -1314,6 +1314,20 @@ section {
   max-height: 600px;
 }
 
+@media (max-width: 991px) {
+  .portfolio-details .portfolio-details-slider img {
+    max-width: 650px;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-details-slider img {
+    max-width: 440px;
+    max-height: 600px;
+  }
+}
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
