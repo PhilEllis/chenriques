@@ -395,18 +395,37 @@ section {
   margin-right: 100px;
 }
 
+@media (max-width: 414px) {
+  .about2 .section-title p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
 .about-healing .section-title {
   margin-top: 40px;
 }
 
 .about-healing .section-title p {
-  margin-bottom: 30
-  px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 414px) {
+  .about-healing .section-title span {
+    font-size: 32px;
+  }
 }
 
 .healing-end .section-title p {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media (max-width: 414px) {
+  .healing-end .section-title p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 .section-title h2:after {
@@ -500,6 +519,12 @@ section {
   padding: 0 0;
 }
 
+@media (max-width: 414px) {
+  #hero {
+    height: 85vh;
+  }
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -558,6 +583,12 @@ section {
   padding: 0 0;
 }
 
+@media (max-width: 414px) {
+  #heroenergy {
+    height: 85vh;
+  }
+}
+
 #heroenergy h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -609,13 +640,12 @@ section {
 --------------------------------------------------------------*/
 .hero2 {
   width: 100%;
-  min-height: 30vh;
-  background: #fff;
+  min-height: 20vh;
   background-size: cover;
   position: relative;
   margin: 60px 0 60px 0;
   padding: 140px 0 120px 0;
-  background: url("../img/hero2logo60opac.png") center no-repeat;;
+  background: url("../img/hero2logo60opac.png") center no-repeat;
 }
 
 .hero2 h2 {
@@ -1324,6 +1354,13 @@ section {
 @media (max-width: 768px) {
   .portfolio-details .portfolio-details-slider img {
     max-width: 440px;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 414px) {
+  .portfolio-details .portfolio-details-slider img {
+    max-width: 350px;
     max-height: 600px;
   }
 }
