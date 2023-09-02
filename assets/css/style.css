@@ -412,7 +412,7 @@ section {
 
 @media (max-width: 414px) {
   .about-healing .section-title span {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
@@ -640,12 +640,24 @@ section {
 --------------------------------------------------------------*/
 .hero2 {
   width: 100%;
-  min-height: 20vh;
+  min-height: 40vh;
   background-size: cover;
   position: relative;
   margin: 60px 0 60px 0;
   padding: 140px 0 120px 0;
   background: url("../img/hero2logo60opac.png") center no-repeat;
+}
+
+@media (max-width: 414px) {
+  .hero2 {
+    width: 100%;
+    min-height: 20vh;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 30px 0;
+    padding: 110px 0 100px 0;
+    background: url("../img/hero2logo60opac390.png") center no-repeat;
+  }
 }
 
 .hero2 h2 {
@@ -654,6 +666,16 @@ section {
   font-weight: 500;
   color: rgba(32, 69, 112, 1);
   font-family: "Atterton" sans-serif;
+}
+
+@media (max-width: 414px) {
+  .hero2 h2 {
+    margin: 10px 0 10px 0;
+    font-size: 27px;
+    font-weight: 500;
+    color: rgba(32, 69, 112, 1);
+    font-family: "Atterton" sans-serif;
+  }
 }
 
 .statement {
@@ -809,6 +831,17 @@ section {
   font-size: 18px;
 }
 
+@media (max-width: 414px) {
+  .cta {
+    background: url("../img/carinahenriquescta600.jpg") fixed center center;
+    background-size: cover;
+    height: 300px;
+    padding: 60px 0;
+    margin: 50px 0;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  }
+}
+
   /*--------------------------------------------------------------
 # Cta2
 --------------------------------------------------------------*/
@@ -860,6 +893,16 @@ section {
   font-size: 18px;
 }
 
+@media (max-width: 414px) {
+  .cta2 {
+    background: url("../img/qhehenergyhealingcta600.jpg") fixed center center;
+    background-size: cover;
+    height: 300px;
+    padding: 60px 0;
+    margin: 50px 0;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  }
+}
 /*--------------------------------------------------------------
 # About 2
 --------------------------------------------------------------*/
@@ -1256,6 +1299,17 @@ section {
   }
 }
 
+@media (max-width: 414px) {
+  .testimonials {
+    padding: 80px 0;
+    margin: 50px 0;
+    background: url("../img/qhehtestimonials600.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  }
+}
 /*--------------------------------------------------------------
 # Healing End
 --------------------------------------------------------------*/
